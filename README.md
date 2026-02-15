@@ -54,6 +54,6 @@ Decision Tree | Decent accuracy but low AUC (0.692) and moderate MCC — prone t
 kNN | High accuracy and precision but low recall (0.340) — conservative positive predictions; suitable when false positives are costly.
 Naive Bayes | Balanced recall (0.520) with moderate precision — simple baseline with reasonable performance and fast inference.
 Random Forest (Ensemble) | Highest accuracy and AUC (0.904, 0.930) with strong precision but low recall — very good at ranking (AUC) but conservative in positive predictions.
-XGBoost (Ensemble) | Not executed due to missing OpenMP runtime (`libomp`) on this system — install `libomp` (macOS: `brew install libomp`) and reinstall `xgboost` to run.
 
-If you want, I can (A) add these tables to `reports/` as CSVs, (B) produce a PDF report with plots, or (C) run hyperparameter tuning to improve recall/precision tradeoffs.
+
+
